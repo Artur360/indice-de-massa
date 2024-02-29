@@ -1,0 +1,158 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face {
+    font-family: f2;
+    src: url(Louis\ George\ Cafe\ Bold.ttf);
+}
+
+@font-face {
+    font-family: f1;
+    src: url(LEMONMILK-Bold.otf);
+}
+
+body{
+
+background: linear-gradient(90deg, rgb(78, 1, 150), rgb(175, 38, 255) , rgb(139, 37, 255));
+
+}
+
+
+header{
+
+background: rgb(162, 112, 255);
+padding: 10px;
+
+    }
+
+#as{
+font-family: f1;
+margin-left: 25%;
+color: black;
+text-shadow: 2px 3px 1px rgb(201, 201, 201);
+}
+
+.a1{
+
+margin-top: 10%;
+
+}
+
+.a2{
+margin-left: 28%;
+font-family: f2;
+
+}
+
+
+label{
+font-size: large;
+
+}
+
+.b1{
+margin-left: 25%;
+font-family: f2;
+}
+
+
+.c1{
+
+text-align: center;
+margin-top: 50px;
+
+}
+
+button{
+    font-family: f1;
+border: none;
+background-color: rgb(190, 121, 255);
+padding: 10px;
+border-radius:10px ;
+}
+
+button:hover{
+transform: translateY(-7px);
+transition: 1s;
+padding: 9px;
+cursor: pointer;
+}
+
+#d1{
+
+font-family: f2;
+font-size: x-large;
+
+}
+
+#peso{
+padding: 10px;
+margin-bottom: 100px;
+font-family: f2;
+border: 3px solid black;
+font-family: f2;
+border-radius: 9px;
+}
+
+#altura{
+    border: 3px solid black;
+    font-family: f2;
+margin-bottom: 100px;
+border-radius: 9px;
+padding: 10px;
+}
+
+#medidas{
+background-color: rgb(180, 148, 255);
+max-width: 700px;
+margin-left: 23%;
+border-radius: 10px;
+margin-top: 60px;
+padding: 20px;
+}
+
+footer{
+ 
+width: 100%;
+font-family: f2;
+font-size: medium ;
+margin-top: 50px;
+}
+
+ 
+.span1{
+    color: white;
+    
+    }
+    
+    .span2{
+    
+    color: gray;
+    
+    }
+    
+    .span3{
+    color: black;
+    
+    
+    }
+    
+    .div3{
+    display: flex;
+margin-left: 10px;
+    background-color: red;
+    max-width: 50px;
+    padding: 0.5%;
+    border-radius: 5px;
+    
+    }
+
+    #div{
+ 
+display: flex;
+font-size: large;
+
+    }
